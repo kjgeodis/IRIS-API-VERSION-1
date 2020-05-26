@@ -16,8 +16,29 @@
       "url": "https://iris-ts2.ff.geodis.com/api/tracking.asmx"
     }
   ],
-  "paths": {},
+  "paths": {
+    "/ShipmentDetails": {
+      "get": {
+        "summary": "Get details for a shipment",
+        "tags": [],
+        "responses": {},
+        "operationId": "get-ShipmentDetails",
+        "description": "This script should be used to get detailed information about a specific shipment."
+      }
+    }
+  },
   "components": {
-    "schemas": {}
+    "schemas": {
+      "ShipmentDetails": {
+        "title": "ShipmentDetails",
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          }
+        },
+        "description": "A shipment  "
+      }
+    }
   }
 }
