@@ -14,10 +14,12 @@ Included API operations:
 - **BOOKING - Create and update bookings:** All booking functions.
 - **MILESTONES - Milestone request:** The main purpose for this script is for GEODIS agents to update milestones on shipments via the IRIS API instead of doing this manually via Milestone Entry in IRIS.
 
-### A Note on this Personal Space
+### A note about IRIS API version 1.0
 
-This initial Studio project template was cloned from the [Studio Templates](https://github.com/stoplightio/studio-templates) Github repository. If you find an error, or have an idea on how to improve this getting started template, please let us know in the issues section of that repository.
+The IRIS API version 1.0 is a web service.
 
-We plan to add additional sections on Prism (mocking), Spectral (linting), working with the filesystem, Git, and more in the future.
-
-This template includes a couple of example APIs (Petstore and To-dos). You can create a new project, or open another folder on your computer, by clicking the `Project Selector` dropdown in the top left of the Studio UI.
+Web services use SOAP over HTTP protocol. The IRIS API is following the standard W3C Web Services
+Architecture with the interface described in the machine-processable format WSDL. Other systems
+interact with the Web service in a manner prescribed by its description using SOAP (Simple Object
+Access Protocol) messages, conveyed using HTTPS with an XML serialization in conjunction with other
+Web-related standards.
