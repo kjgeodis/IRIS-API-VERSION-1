@@ -1,5 +1,7 @@
 # Introduction
 
+![](../assets/images/IRIS_API.png)
+
 Integrate with GEODIS using the IRIS API integration platform. The IRIS API is intended only for clients of GEODIS and access to the services offered through the API need to be approved and activated by GEODIS before they can be utilized.
 The use of the IRIS API is not intended to drive data provisioning to other applications, reporting and/or BI purposes. GEODIS will not allow large bulk data extraction in a batched fashion and that type of use of the web service will be enforced by capping of the number of requests done per account or in severe cases by discontinuation of the user accounts involved in such usage patterns. 
 
