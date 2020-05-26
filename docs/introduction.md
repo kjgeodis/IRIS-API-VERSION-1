@@ -3,11 +3,12 @@
 Integrate with GEODIS using the IRIS API integration platform. The IRIS API is intended only for clients of GEODIS and access to the services offered through the API need to be approved and activated by GEODIS before they can be utilized.
 The use of the IRIS API is not intended to drive data provisioning to other applications, reporting and/or BI purposes. GEODIS will not allow large bulk data extraction in a batched fashion and that type of use of the web service will be enforced by capping of the number of requests done per account or in severe cases by discontinuation of the user accounts involved in such usage patterns. 
 
+<!-- theme: warning -->
 > GEODIS reserves the right to enforce abuse and user of the web service that may be affecting performance of IRIS or surrounding sub systems.
 
 For the full IRIS application, please access it via [IRIS Web Application](https://iris-demo.geodis.com/).
 
-Included API operations:
+Available API operations:
 
 - **TRACKING - List of shipments:** This request should be used to get a complete list of shipments for the defined period looking at the selected date type in the request.
 - **TRACKING - Shipment details:** This script should be used to get detailed information about a specific shipment.
@@ -16,7 +17,8 @@ Included API operations:
 
 ### A note about IRIS API version 1.0
 
-The IRIS API version 1.0 is a web service.
+<!-- theme: info -->
+> The IRIS API version 1.0 is a web service.
 
 Web services use SOAP over HTTP protocol. The IRIS API is following the standard W3C Web Services
 Architecture with the interface described in the machine-processable format WSDL. Other systems
