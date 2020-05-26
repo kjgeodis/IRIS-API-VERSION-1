@@ -29,15 +29,24 @@
   },
   "components": {
     "schemas": {
-      "ShipmentDetails": {
-        "title": "ShipmentDetails",
+      "Shipments": {
+        "title": "Shipments",
         "type": "object",
         "properties": {
           "id": {
             "type": "string"
           }
         },
-        "description": "A shipment  "
+        "description": "A list of shipments"
+      },
+      "shipment": {
+        "title": "shipment",
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string"
+          }
+        }
       }
     }
   }
