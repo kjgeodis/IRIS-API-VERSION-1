@@ -1,0 +1,23 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Tracking",
+    "version": "1.0",
+    "description": "Get complete shipment details.",
+    "contact": {
+      "name": "Global EDI & Integration Support",
+      "email": "edi.support.ff.hq@geodis.com",
+      "url": "https://www.geodis.com"
+    },
+    "termsOfService": "The IRIS API is intended only for clients of GEODIS and access to the services offered through the API need to be approved and activated by GEODIS before they can be utilized."
+  },
+  "servers": [
+    {
+      "url": "https://iris-ts2.ff.geodis.com/api/tracking.asmx"
+    }
+  ],
+  "paths": {},
+  "components": {
+    "schemas": {}
+  }
+}
